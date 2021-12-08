@@ -1,0 +1,180 @@
+<meta charset="UTF-8" />
+<head>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+
+        * {
+            font-family: 'Open Sans';
+        }
+
+        .Header {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .Titulo {
+            font-size: 16px;
+            padding-left: 24px;
+            height: 35px;
+            font-weight: bold;
+            border: 1px solid black;
+            width: 20%;
+        }
+
+        .Col {
+            padding: 8px;
+            width: 10%;
+            text-align: center;
+            border-top: 1.5px solid black;
+        }
+
+        @page { @bottom-right { content:"Page "counter(page)" of "counter(pages);}}
+	
+
+    </style>
+</head>
+<body>
+    <table class="Header">
+        <tr class="Header">
+            <th colspan="2"><h1>Relatório de vendas</h1></th>
+            <tr>
+                <td colspan="2" style="text-align:center;">USUÁRIO: USUARIO_VARIAVEL - DATA_VARIAVEL</td>
+            </tr>
+        </tr>
+
+        <tr class="Header">
+            <td class="Titulo">CLIENTE: </td>
+            <td>CLIENTE_VAR</td>
+        </tr>
+
+        <tr class="Header">
+            <td class="Titulo">PERIODO VENDAS: </td>
+            <td>PERIODO_VAR</td>
+        </tr>
+        
+        <tr class="Header">
+            <td class="Titulo">FILTROS: </td>
+            <td>FILTROS_VAR</td>
+        </tr>
+    </table>
+
+    <div Style="padding-bottom: 15px;"></div>
+
+    <!-- Tabela : data | qtd cupons | valor tot | taxa adm | valor desag | valor liq | taxa % adm  | ticket -->
+    <div style="page-break-after: always">
+        <table>
+            <tr>
+                <th class="Col"> Data </th>
+                <th class="Col"> Quantidade Cupons </th> 
+                <th class="Col"> Valor Total </th> 
+                <th class="Col"> Taxa Adm </th>
+                <th class="Col"> Valor Desagendado </th>
+                <th class="Col"> Valor Líquido Previsto </th>
+                <th class="Col"> (%) Taxa Adm</th>
+                <th class="Col"> Ticket Médio </th>
+            </tr>
+            <tr>
+                <td colspan="8" style="text-align:center; border-top: 1.5px solid; padding: 8px;"> LOJA_NOME_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> DATA_VAR </td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> <b>Subtotal</b></td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="page-break-after: always">
+        <table>
+            <tr>
+                <th class="Col"> Data </th>
+                <th class="Col"> Quantidade Cupons </th> 
+                <th class="Col"> Valor Total </th> 
+                <th class="Col"> Taxa Adm </th>
+                <th class="Col"> Valor Desagendado </th>
+                <th class="Col"> Valor Líquido Previsto </th>
+                <th class="Col"> (%) Taxa Adm</th>
+                <th class="Col"> Ticket Médio </th>
+            </tr>
+            <tr>
+                <td colspan="8" style="text-align:center; border-top: 1.5px solid; padding: 8px;"> LOJA_NOME_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> DATA_VAR </td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> <b>Subtotal</b></td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="page-break-after: always">
+        <table>
+            <tr>
+                <th class="Col"> Data </th>
+                <th class="Col"> Quantidade Cupons </th> 
+                <th class="Col"> Valor Total </th> 
+                <th class="Col"> Taxa Adm </th>
+                <th class="Col"> Valor Desagendado </th>
+                <th class="Col"> Valor Líquido Previsto </th>
+                <th class="Col"> (%) Taxa Adm</th>
+                <th class="Col"> Ticket Médio </th>
+            </tr>
+            <tr>
+                <td colspan="8" style="text-align:center; border-top: 1.5px solid; padding: 8px;"> LOJA_NOME_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> DATA_VAR </td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+            <tr class="Col">
+                <td class="Col"> <b>Subtotal</b></td>
+                <td class="Col"> QTD_CUPOM_VAR </td> 
+                <td class="Col"> VALOR_TOTAL_VAR</td> 
+                <td class="Col"> TAXA_ADM_VAR </td>
+                <td class="Col"> VALOR_DESAG_VAR </td>
+                <td class="Col"> VALOR_LIQ_VAR </td>
+                <td class="Col"> TAVA_PORC_VAR</td>
+                <td class="Col"> TICKET_M_VAR </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
